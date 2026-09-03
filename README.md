@@ -4,3 +4,6 @@
 {\*\expandedcolortbl;;}
 \margl1440\margr1440\vieww11520\viewh8400\viewkind0
 }
+
+This folder is connected to appm4600 git repository. 
+
