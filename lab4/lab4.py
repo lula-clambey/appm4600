@@ -68,11 +68,12 @@ def newton(f,fp,p0,tol,Nmax):
 
     for it in range(Nmax):
         p1 = p0-f(p0)/fp(p0)
-    if (abs(p1-p0) < tol):
-        pstar = p1
-        info = 0
-        return [pstar,it, info]
-    p0 = p1
+        if (abs(p1-p0) < tol):
+            pstar = p1
+            info = 0
+            return [pstar,it, info]
+        p0 = p1
+        
     pstar = p1
     info = 1
     return [pstar,it, info]
